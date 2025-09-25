@@ -10,7 +10,7 @@ Dashboard monitoring siswa PKL
 
 Cara Instalasi
 git clone https://github.com/username/sistem-informasi-pkl.git
-Masuk Ke folder penyek:
+Masuk Ke folder proyek:
 cd sistem-informas-pkl
 Import database pkl.sql ke MySQl
 Jalankan server lokal (XAMPP/Laragon)
@@ -20,9 +20,11 @@ Struktur Forlder :
 /assets       # File CSS, JS, dan gambar
 /config       # Koneksi database
 /pages        # Halaman utama sistem
+
 Tekonlogi yang digunakan : 
 PHP (Native / Laravel, sesuai kebutuhan)
 MySQL
 Bootstrap
+
 Pengembangan 
 Proyek ini dibuat sebagai bagian dari tugas Praktik Kerja Lapangan (PKL) di [Nama Sekolah].
