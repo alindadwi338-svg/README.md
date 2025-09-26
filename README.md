@@ -1,30 +1,68 @@
-Deskripsi
-Sistem Informasi PKL adalah aplikasi yang dirancang untuk mengelola data praktik kerja lapangan siswa/mahasiswa. Aplikasi ini membantu dalam pencatatan, pemantauan, serta pelaporan kegiatan PKL sehingga lebih terstruktur dan efisien.
+# 🏢 Sistem Informasi PT.-Cybernova
+Profil perusahaan mitra, pendaftaran PKL, dan laporan monitoring kegiatan
 
-Fitur 
-Manajemen data siswa PKL
-Manajemen data mitra perusahaan
-Upload laporan PKL
-Cetak surat pengantar PKL
-Dashboard monitoring siswa PKL
+---
 
-Cara Instalasi
-git clone https://github.com/username/sistem-informasi-pkl.git
-Masuk Ke folder proyek:
-cd sistem-informas-pkl
-Import database pkl.sql ke MySQl
-Jalankan server lokal (XAMPP/Laragon)
-Akses di browser :http://localhost/sistem-informasi-pkl
+## 📌 1. Latar Belakang / Profil Proyek
+**PT.-Cybernova** adalah sistem informasi yang dikembangkan untuk mendukung kegiatan Praktik Kerja Lapangan (PKL) di lingkungan sekolah.  
+Tujuan utama proyek ini:
+- Menyediakan informasi profil perusahaan mitra secara terstruktur.  
+- Memfasilitasi proses pendaftaran PKL secara digital.  
+- Menyediakan fitur monitoring kegiatan PKL yang transparan dan terdokumentasi.  
 
-Struktur Forlder : 
-/assets       # File CSS, JS, dan gambar
-/config       # Koneksi database
-/pages        # Halaman utama sistem
+---
 
-Tekonlogi yang digunakan : 
-PHP (Native / Laravel, sesuai kebutuhan)
-MySQL
-Bootstrap
+## ⚙️ 2. Fitur Utama
+- **Manajemen Profil Perusahaan Mitra**: Data mitra, bidang usaha, kontak, dan informasi umum.  
+- **Pendaftaran PKL**: Formulir online untuk siswa, validasi data, serta status pendaftaran.  
+- **Monitoring Kegiatan**: Laporan kegiatan siswa, progres PKL, serta catatan harian.  
+- **Dashboard Admin**: Kelola data mitra, siswa, dan monitoring kegiatan.  
+- **Laporan PKL**: Rekap laporan PKL yang bisa dicetak/diekspor.  
 
-Pengembangan 
-Proyek ini dibuat sebagai bagian dari tugas Praktik Kerja Lapangan (PKL) di [Nama Sekolah].
+---
+
+## 🗂️ 3. Struktur Database
+Entitas utama:
+- `users` — data akun siswa, admin, dan pembimbing.  
+- `mitra` — data perusahaan mitra (profil & bidang usaha).  
+- `pendaftaran` — data pendaftaran PKL siswa.  
+- `monitoring` — laporan kegiatan PKL.  
+- `laporan` — kumpulan laporan akhir PKL.  
+
+> 📌 Sertakan diagram ERD di folder `docs/ERD/` bila tersedia.
+
+---
+
+## 🛠️ 4. Teknologi
+- **Front-End**: HTML, CSS, Bootstrap  
+- **Back-End**: PHP (atau framework seperti Laravel)  
+- **Database**: MySQL  
+- **Version Control**: Git & GitHub  
+- **Desain UI/UX**: Figma / Adobe XD (opsional)  
+
+---
+
+## 🔄 5. Alur Kerja PKL
+| Tahap | Kegiatan |
+|-------|----------|
+| Profil Mitra | Input & kelola data perusahaan mitra |
+| Pendaftaran PKL | Siswa mendaftar melalui sistem |
+| Monitoring | Pembimbing & admin memantau kegiatan PKL |
+| Laporan | Siswa mengunggah laporan, admin verifikasi |
+| Dokumentasi | Penyusunan laporan akhir & evaluasi proyek |
+
+---
+
+## ✅ 6. Status Proyek
+- [x] Repository GitHub dibuat  
+- [x] Desain database awal selesai  
+- [ ] Modul pendaftaran PKL berjalan  
+- [ ] Modul monitoring kegiatan aktif  
+- [ ] Laporan PKL terintegrasi  
+
+---
+
+## 🚀 7. Cara Instalasi & Menjalankan
+1. Clone repository:
+   ```bash
+   git clone https://github.com/[username]/PT-Cybernova.git
